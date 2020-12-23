@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.cyan),
       home: Scaffold(
           appBar: AppBar(
-//          centerTitle: false,
+            centerTitle: true,
             title: const Text('Food\'s categories'),
           ),
           body: SafeArea(
