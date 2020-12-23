@@ -14,15 +14,14 @@ class FoodsPage extends StatelessWidget {
     //Filter foods of from category
     List<Food> foods = FAKE_FOODS
         .where((food) => food.categoryId == this.category.id)
-        .toList();// điều kiện thỏa mãn để lôi 
+        .toList(); // điều kiện thỏa mãn để lôi
     return Scaffold(
       appBar: AppBar(
         title: Text('Foods from ${category.content}'),
       ),
-      body: Center(child: Center(
-        child: ListView.builder(itemBuilder: (context, index) {
-          
-        }),
+      body: Center(
+          child: Center(
+        child: ListView.builder(itemBuilder: (context, index) {}),
       )),
     );
   }
