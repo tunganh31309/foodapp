@@ -13,7 +13,8 @@ class CategoryItem extends StatelessWidget {
     return InkWell(
       // InkWell có thể bấm(onTap) như Bottom
       onTap: () {
-        print('tapped to category: ${this.category.content}');
+        print(
+            'tapped to category: ${this.category.content}'); // nếu như bấm vào cái category nào thì sẽ nối string
         //Navigate to another page
         //Pages are stored into a Stack, the page you see is the top Page(in the stack)
         /*
@@ -23,10 +24,10 @@ class CategoryItem extends StatelessWidget {
             ));
          */
         //Are there another way to send parameters ? Yes !, Use RouteNames
-        Navigator.pushNamed(context, '/FoodsPage',
+        Navigator.pushNamed(context, '/FoodsPage', // màn hình mới tên FoodsPage
             arguments: {'category': category});
       },
-      splashColor: Colors.deepPurple,
+      splashColor: Colors.deepPurple, // màu nó nháy lên khi bấm vào item
       child: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
