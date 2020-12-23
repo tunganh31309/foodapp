@@ -10,29 +10,45 @@ class CategoryItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color _color = this.category.color;
-    return Container(
-        child: Container(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.center,
-        // cho thẻ Column, Alignment theo chiều X chiều Y dựa vào center
-        children: <Widget>[
-          Text(this.category.content,
-              style: Theme.of(context)
-                  .textTheme
-                  .title), // lúc này là font sunshiney
-        ],
+    return InkWell(
+      // InkWell có thể bấm(onTap) như Bottom
+      onTap: () {
+        print('tapped to category: ${this.category.content}');
+        //Navigate to another page
+        //Pages are stored into a Stack, the page you see is the top Page(in the stack)
+        /*
+        Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => FoodsPage(category: this.category,)//you can send parameters using constructor
+            ));
+         */
+        //Are there another way to send parameters ? Yes !, Use RouteNames
+        Navigator.pushNamed(context, '/FoodsPage',
+            arguments: {'category': category});
+      },
+      splashColor: Colors.deepPurple,
+      child: Container(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
+          // cho thẻ Column, Alignment theo chiều X chiều Y dựa vào center
+          children: <Widget>[
+            //Now change font's family from "Google Fonts"
+            Text(this.category.content,
+                style: Theme.of(context).textTheme.title),
+            // lúc này là font sunshiney
+          ],
+        ),
+        decoration: BoxDecoration(
+            gradient: LinearGradient(
+                // Gradient là biến thiên biến đổi từ màu A => màu B
+                colors: [_color.withOpacity(0.8), _color],
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft),
+            // màu color theo chiều bắt đầu topRight và kết thích là bottomLeft
+            color: _color, // _color là chủ dùng riêng trong class này
+            borderRadius: BorderRadius.circular(20)),
       ),
-      decoration: BoxDecoration(
-          gradient: LinearGradient(
-              // Gradient là biến thiên biến đổi từ màu A => màu B
-              colors: [_color.withOpacity(0.8), _color], // màu A
-              begin: Alignment.topRight,
-              end: Alignment.bottomLeft),
-          // màu color theo chiều bắt đầu topRight và kết thích là bottomLeft
-          color: _color, // _color là chủ dùng riêng trong class này
-          borderRadius: BorderRadius.circular(20)),
-      // BoxDecoration liên quan đến hình dáng container
-    ));
+    );
   }
 }
