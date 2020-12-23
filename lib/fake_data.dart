@@ -6,5 +6,6 @@ const FAKE_CATEGORIES = const [
   Category(id: 2, content: 'Pizza', color: Colors.teal),
   Category(id: 3, content: 'Humburgers', color: Colors.cyanAccent),
   // id cho từ 1 trở đi rồi tăng lên 1
+  
 ];
 // Những dữ liệu mình tự bịa đặt
