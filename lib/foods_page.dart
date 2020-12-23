@@ -15,7 +15,7 @@ class FoodsPage extends StatelessWidget {
     //Filter foods of from category
     List<Food> foods = FAKE_FOODS
         .where((food) => food.categoryId == this.category.id)
-        .toList(); // điều kiện thỏa mãn
+        .toList();
     return Scaffold(
       appBar: AppBar(
         title: Text('Foods from ${category.content}'),
@@ -44,15 +44,12 @@ class FoodsPage extends StatelessWidget {
                             clipBehavior: Clip.hardEdge,
                             child: Center(
                               child: FadeInImage.assetNetwork(
-                                  placeholder:
-                                      'assets/images/loading.gif', // ảnh khi đang loading
-                                  image: food
-                                      .urlImage), // đường link đến ảnh mình chọn
+                                  placeholder: 'assets/images/loading.gif',
+                                  image: food.urlImage),
                             ),
                           ),
                         ),
                         Positioned(
-                          //Đặt vị trí tuyện đối với Positioned của cái thẻ đó so với thẻ khác
                           top: 30,
                           left: 30,
                           child: Container(
@@ -68,7 +65,7 @@ class FoodsPage extends StatelessWidget {
                                   Icons.timer,
                                   color: Colors.white,
                                   size: 25,
-                                ), // Icon hiện thời gian lấy từ fake_data
+                                ),
                                 Text(
                                   '${food.duration.inMinutes} minutes',
                                   style: TextStyle(
