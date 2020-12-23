@@ -33,12 +33,12 @@ class DetailFoodPage extends StatelessWidget {
                       leading: CircleAvatar(
                         child: Text(
                           '#${index + 1}',
-                          style: TextStyle(fontSize: 19, color: Colors.black),
+                          style: TextStyle(fontSize: 22, color: Colors.black),
                         ),
                       ),
                       title: Text(
                         ingredient,
-                        style: TextStyle(fontSize: 22),
+                        style: TextStyle(fontSize: 20),
                       ),
                     );
                   }),

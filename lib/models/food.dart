@@ -18,7 +18,7 @@ class Food {
       {@required this.name,
       @required this.urlImage,
       @required this.duration,
-      this.complexity,
+      this.complexity, // độ khó món ăn
       this.ingredients,
       this.categoryId}) {
     //id is "auto-increment"
