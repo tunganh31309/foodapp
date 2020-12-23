@@ -6,11 +6,12 @@ class CategoriesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView(
+      // GridView là theo dạng lưới , list của mình theo chiều ngang và chiều dọc
       children: <Widget>[],
       gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 300,
-          childAspectRatio: 3 / 2,
-          crossAxisSpacing: 10,
+          maxCrossAxisExtent: 300, // chiều rộng max
+          childAspectRatio: 3 / 2, // tỉ lệ giữa chiều rộng chia chiều cao
+          crossAxisSpacing: 10, // độ rộng các lưới theo chiều dọc chiều ngang
           mainAxisSpacing: 10),
     );
   }
