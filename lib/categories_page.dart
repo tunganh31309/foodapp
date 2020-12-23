@@ -5,6 +5,7 @@ import 'package:foodapp/fake_data.dart';
 class CategoriesPage extends StatelessWidget {
   // class CategoriesPage kế thừa từ thẻ  StatelessWidget
   // Vì trong này danh sách này không thêm sửa xóa
+  static const String routeName = '/CategoriesPage';
   @override
   Widget build(BuildContext context) {
     return GridView(
