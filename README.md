@@ -49,10 +49,16 @@ samples, guidance on mobile development, and a full API reference.
 1.	Phát triển nhanh: 
 -	Với tinh năng hot reload giúp lập trình viên có thể nhanh chóng và dễ dàng thử nghiệm, xây dựng giao diện người dùng, thêm tính năng và sửa lỗi. 
 -	Hot reload hoạt động bằng cách cập nhật các tệp mã nguồn vào máy ảo Dart đang chạy. Sau khi máy ảo cập nhật các lớp với các phiên bản mới của các trường và chức năng, Flutter framework sẽ tự động xây dựng lại cây widget và cho phép lập trình viên có thể nhanh chóng xem lại ảnh hưởng của các thay đổi.
-2	Tạo ra giao diện đẹp
+2.	Tạo ra giao diện đẹp
 -	Flutter tích hợp sẵn các tiện ích Material Design và Cupertino, các API chuyển động phong phú, cuộn mượt tự nhiên
--	Hiệu suất như các ứng dụng Native
+3.	Hiệu suất như các ứng dụng Native
 -	Các tiện ích con của Flutter kết hợp tất cả các điểm khác biệt quan trọng của nền tảng như cuộn, điều hướng, biểu tượng và phông chữ để mang lại hiệu suất gốc đầy đủ trên cả iOS và Android.
+### 3. Sơ lược về ngôn ngữ Dart
+1.	Flutter cho phép lập trình viên xây dựng ứng dụng cho Android, iOS và web chỉ từ một mã nguồn duy nhất. Để có thể thực hiện điều đó, Flutter cần một ngôn ngữ lập trình hoạt động trên tất cả các nền tảng này mang lại cho lập trình viên một trải nghiệm phát triển nhanh chóng. Và đó là lý do mà Flutter chọn Dart.
+2.	Dart là một ngôn ngữ lập trình hướng đối tượng được tạo ra bởi Google vào năm 2011
+3.	Công nghệ biên dịch linh hoạt của Dart cho phép lập trình viên chạy mã Dart theo nhiều cách khác nhau tùy vào mục tiêu của lập trình viên:
+-	Cho ứng dụng di động: Dart Native bao gồm cả máy ảo Dart với trình biên dịch JIT (Just in time) hỗ trợ lập trình viên hot reload. Và trình biên dịch AOT (Ahead-of-time) để build một ứng dụng với hiệu năng như các ứng dụng native.
+-	Cho ứng dụng web: Dart Web trình biên dịch khi đang phát triển (development time compiler (dartdevc)) và trình biên dịch khi phát hành (production time compiler (dart2js)). Có chức năng tương tự như JIT và AOT.
 
 
 
