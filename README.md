@@ -14,7 +14,16 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## Báo cáo
-                                                            **Lời nói đầu**
+                                     **Lời nói đầu**
     Hiện nay công nghệ số đang ngày càng phát triển, hầu hết mỗi người chúng ta đều sử dụng một chiếc điện thoại smartphone trong việc  làm  cũng như giải trí của mình. Người sử dụng smartphone khoảng hơn 5 tiếng mỗi ngày trong hầu hết mọi công việc xung quanh họ.
-    Để phục vụ cho nhu cầu đó các nhà phát triển cũng cần tạo ra ứng dụng một cách nhanh chóng và tiết kiệm cả về thời gian và tiền bạc. Để có thể phát triển ứng dụng như vậy lập trinh viên có thể sử dụng Flutter – một Cross Platform được phát triển bởi Google để tạo các ứng dụng trên iOS, Android và cả web.
+
+    Để phục vụ cho nhu cầu đó các nhà phát triển cũng cần tạo ra ứng dụng một cách nhanh chóng và tiết kiệm cả về thời gian và tiền bạc. 
+
+    Để có thể phát triển ứng dụng như vậy lập trinh viên có thể sử dụng Flutter – một Cross Platform được phát triển bởi Google để tạo các ứng dụng trên iOS, Android và cả web.
+
     Trong phạm vi bài tập  môn học ta sẽ tìm hiểu về Flutter và phát triển ứng dụng cho nền tảng Android bằng Flutter.
+
+### 	I. Tổng quan đề tài
+      - Trước khi smartphone trở nên phổ biến để ghi nhớ lại các công thức món ăn, người ta sẽ sử dụng sổ tay hay giấy nhớ. Hiện nay với sự phổ biến của smartphone và thiết bị thông minh, con người có thể dùng các ứng dụng ghi nhớ trên các thiết bị thông minh để viết công thức.
+      - Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
+      - Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
