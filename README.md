@@ -24,35 +24,35 @@ samples, guidance on mobile development, and a full API reference.
     Trong phạm vi bài tập  môn học ta sẽ tìm hiểu về Flutter và phát triển ứng dụng cho nền tảng Android bằng Flutter.
 
 ### 	I. Tổng quan đề tài
-- Trước khi smartphone trở nên phổ biến để ghi nhớ lại các công thức món ăn, người ta sẽ sử dụng sổ tay hay giấy nhớ. Hiện nay với sự phổ biến của smartphone và thiết bị thông minh, con người có thể dùng các ứng dụng ghi nhớ trên các thiết bị thông minh để viết công thức.
-- Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
-- Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
-- Để có thể thực hiện được ta sẽ tìm hiểu:
-    o	Flutter và ngôn ngữ Dart
-    o	Sử dụng API
-- Ứng dụng được tạo ra sẽ có các chức năng chính như:
-    o	Lựa chọn thực đơn món ăn các nước
-    o	Tìm nguyên liệu
-    o	Thêm sửa xóa nguyên liệu
+1. Trước khi smartphone trở nên phổ biến để ghi nhớ lại các công thức món ăn, người ta sẽ sử dụng sổ tay hay giấy nhớ. Hiện nay với sự phổ biến của smartphone và thiết bị thông minh, con người có thể dùng các ứng dụng ghi nhớ trên các thiết bị thông minh để viết công thức.
+2. Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
+3. Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
+4. Để có thể thực hiện được ta sẽ tìm hiểu:
+    -	Flutter và ngôn ngữ Dart
+    -	Sử dụng API
+5. Ứng dụng được tạo ra sẽ có các chức năng chính như:
+    -	Lựa chọn thực đơn món ăn các nước
+    -	Tìm nguyên liệu
+    -	Thêm sửa xóa nguyên liệu
 ##      II.Tìm hiểu về Flutter
 ![Alt](./assets/images/taixuong.png)
 
 
-1.	Flutter là gì?
--	Flutter là một bộ công cụ giao diện người dùng của Google (Google’s UI) để tạo ra các ứng dụng đẹp, được biên dịch nguyên bản cho các thiết bị di động (Android, iOS), web và cả máy tính từ một codebase duy nhất.
--	Flutter được tạo ra nhằm giải quyết bài toan thường gặp khi phát triển ứng dụng di động là “Fast Development” và “Native Performance”.
--	Flutter bao gồm 2 thành phần quan trọng:
-    o	SDK bao gồm các thư viện, công cụ giúp người dùng phát triển ứng dụng và biên dịch mã này sang mã gốc cho các nền tảng khác nhau như iOS, Android hay Web
-    o	Framework gồm các thanh phần giao diện người dùng có thể tái sử dụng (button, textfield,…) giúp lập trình viên có thể tạo ra ứng dụng của riêng mình.
--	Flutter đang được sử dụng bởi tổ chức lớn trên khắp thế giới như: Google, Alibaba, ebay, Tencent, BMW….
-2.	Các đặc điểm nổi bật của Flutter
--	Phát triển nhanh: 
-o	Với tinh năng hot reload giúp lập trình viên có thể nhanh chóng và dễ dàng thử nghiệm, xây dựng giao diện người dùng, thêm tính năng và sửa lỗi. 
-o	Hot reload hoạt động bằng cách cập nhật các tệp mã nguồn vào máy ảo Dart đang chạy. Sau khi máy ảo cập nhật các lớp với các phiên bản mới của các trường và chức năng, Flutter framework sẽ tự động xây dựng lại cây widget và cho phép lập trình viên có thể nhanh chóng xem lại ảnh hưởng của các thay đổi.
--	Tạo ra giao diện đẹp
-o	Flutter tích hợp sẵn các tiện ích Material Design và Cupertino, các API chuyển động phong phú, cuộn mượt tự nhiên
+### 1.	Flutter là gì?
+1.	Flutter là một bộ công cụ giao diện người dùng của Google (Google’s UI) để tạo ra các ứng dụng đẹp, được biên dịch nguyên bản cho các thiết bị di động (Android, iOS), web và cả máy tính từ một codebase duy nhất.
+2.	Flutter được tạo ra nhằm giải quyết bài toan thường gặp khi phát triển ứng dụng di động là “Fast Development” và “Native Performance”.
+3.	Flutter bao gồm 2 thành phần quan trọng:
+    -	SDK bao gồm các thư viện, công cụ giúp người dùng phát triển ứng dụng và biên dịch mã này sang mã gốc cho các nền tảng khác nhau như iOS, Android hay Web
+    -	Framework gồm các thanh phần giao diện người dùng có thể tái sử dụng (button, textfield,…) giúp lập trình viên có thể tạo ra ứng dụng của riêng mình.
+4.	Flutter đang được sử dụng bởi tổ chức lớn trên khắp thế giới như: Google, Alibaba, ebay, Tencent, BMW….
+### 2.	Các đặc điểm nổi bật của Flutter
+1.	Phát triển nhanh: 
+-	Với tinh năng hot reload giúp lập trình viên có thể nhanh chóng và dễ dàng thử nghiệm, xây dựng giao diện người dùng, thêm tính năng và sửa lỗi. 
+-	Hot reload hoạt động bằng cách cập nhật các tệp mã nguồn vào máy ảo Dart đang chạy. Sau khi máy ảo cập nhật các lớp với các phiên bản mới của các trường và chức năng, Flutter framework sẽ tự động xây dựng lại cây widget và cho phép lập trình viên có thể nhanh chóng xem lại ảnh hưởng của các thay đổi.
+2	Tạo ra giao diện đẹp
+-	Flutter tích hợp sẵn các tiện ích Material Design và Cupertino, các API chuyển động phong phú, cuộn mượt tự nhiên
 -	Hiệu suất như các ứng dụng Native
-o	Các tiện ích con của Flutter kết hợp tất cả các điểm khác biệt quan trọng của nền tảng như cuộn, điều hướng, biểu tượng và phông chữ để mang lại hiệu suất gốc đầy đủ trên cả iOS và Android.
+-	Các tiện ích con của Flutter kết hợp tất cả các điểm khác biệt quan trọng của nền tảng như cuộn, điều hướng, biểu tượng và phông chữ để mang lại hiệu suất gốc đầy đủ trên cả iOS và Android.
 
 
 
