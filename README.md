@@ -24,13 +24,13 @@ samples, guidance on mobile development, and a full API reference.
     Trong phạm vi bài tập  môn học ta sẽ tìm hiểu về Flutter và phát triển ứng dụng cho nền tảng Android bằng Flutter.
 
 ### 	I. Tổng quan đề tài
-      - Trước khi smartphone trở nên phổ biến để ghi nhớ lại các công thức món ăn, người ta sẽ sử dụng sổ tay hay giấy nhớ. Hiện nay với sự phổ biến của smartphone và thiết bị thông minh, con người có thể dùng các ứng dụng ghi nhớ trên các thiết bị thông minh để viết công thức.
-      - Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
-      - Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
-      - Để có thể thực hiện được ta sẽ tìm hiểu:
+- Trước khi smartphone trở nên phổ biến để ghi nhớ lại các công thức món ăn, người ta sẽ sử dụng sổ tay hay giấy nhớ. Hiện nay với sự phổ biến của smartphone và thiết bị thông minh, con người có thể dùng các ứng dụng ghi nhớ trên các thiết bị thông minh để viết công thức.
+- Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
+- Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
+- Để có thể thực hiện được ta sẽ tìm hiểu:
                  o	Flutter và ngôn ngữ Dart
                  o	Sử dụng API
-      - Ứng dụng được tạo ra sẽ có các chức năng chính như:
+- Ứng dụng được tạo ra sẽ có các chức năng chính như:
                     o	Lựa chọn thực đơn món ăn các nước
                     o	Tìm nguyên liệu
                     o	Thêm sửa xóa nguyên liệu
