@@ -28,12 +28,12 @@ samples, guidance on mobile development, and a full API reference.
 - Một ứng dụng nấu ăn sẽ có thể giúp người dùng nấu ăn ngon hơn hoặc chỉ đơn giản là giảm bớt gánh nặng trong tâm trí khi phải ghi nhớ quá nhiều việc cần làm.
 - Do đó trong phạm vi môn học này ta sẽ phát triển một ứng dụng “cooking” trên nền tảng Android với Flutter giúp người dùng cải thiện trình độ nấu nướng.
 - Để có thể thực hiện được ta sẽ tìm hiểu:
-        o	Flutter và ngôn ngữ Dart
-        o	Sử dụng API
+    o	Flutter và ngôn ngữ Dart
+    o	Sử dụng API
 - Ứng dụng được tạo ra sẽ có các chức năng chính như:
-        o	Lựa chọn thực đơn món ăn các nước
-        o	Tìm nguyên liệu
-        o	Thêm sửa xóa nguyên liệu
+    o	Lựa chọn thực đơn món ăn các nước
+    o	Tìm nguyên liệu
+    o	Thêm sửa xóa nguyên liệu
 ##      II.Tìm hiểu về Flutter
 ![Alt](./assets/images/taixuong.png)
 
