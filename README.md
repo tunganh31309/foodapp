@@ -59,7 +59,30 @@ samples, guidance on mobile development, and a full API reference.
 3.	Công nghệ biên dịch linh hoạt của Dart cho phép lập trình viên chạy mã Dart theo nhiều cách khác nhau tùy vào mục tiêu của lập trình viên:
 -	Cho ứng dụng di động: Dart Native bao gồm cả máy ảo Dart với trình biên dịch JIT (Just in time) hỗ trợ lập trình viên hot reload. Và trình biên dịch AOT (Ahead-of-time) để build một ứng dụng với hiệu năng như các ứng dụng native.
 -	Cho ứng dụng web: Dart Web trình biên dịch khi đang phát triển (development time compiler (dartdevc)) và trình biên dịch khi phát hành (production time compiler (dart2js)). Có chức năng tương tự như JIT và AOT.
-
+## III. Tìm hiểu mô hình MVVM(Model – View – ViewModel)
+Hình minh họa sau đây cho thấy ba lớp MVVM và sự tương tác của chúng.
+![alt](./assets/images/IC448690.png)
+1. View Class
+- View là phần giao diện của ứng dụng để hiển thị dữ liệu và nhận tương tác của người dùng.
+- Một điểm khác biệt so với các ứng dụng truyền thống là View trong mô hình này tích cực hơn. 
+- Nó có khả năng thực hiện các hành vi và phản hồi lại người dùng thông qua tính năng binding, command.
+2. View Model Class
+- Lớp trung gian giữa View và Model.
+- ViewModel có thể được xem là thành phần thay thế cho Controller trong mô hình MVC.
+-  Nó chứa các mã lệnh cần thiết để thực hiện data binding, command.
+3. Model Class
+- Model là các đối tượng giúp truy xuất và thao tác trên dữ liệu thực sự.
+## IV. Một số hình ảnh cắt được trong demo
+1. Đây là giao diện trang chủ của app
+   ![alt](./assets/images/tempsnip.png)
+2. Khi mình lựa chọn món trong danh sách thì hình ảnh sẽ được load sau vài giây
+   ![alt](./assets/images/tempsnip1.png)
+3. Món ăn sẽ hiện thời gian nấu và độ khó khi nấu món 
+   ![alt](./assets/images/tempsnip2.png)
+4. Ấn vào món ăn mình muốn nấu thì nó sẽ hiện các nguyên liệu
+   ![alt](./assets/images/tempsnip3.png)
+5. Nếu lựa chọn vào thể loại mà app chưa cập nhật sẽ hiện như sau 
+   ![alt](./assets/images/tempsnip4.png)
 
 
                
