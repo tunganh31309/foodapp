@@ -83,6 +83,11 @@ Hình minh họa sau đây cho thấy ba lớp MVVM và sự tương tác của 
    ![alt](./assets/images/tempsnip3.png)
 5. Nếu lựa chọn vào thể loại mà app chưa cập nhật sẽ hiện như sau 
    ![alt](./assets/images/tempsnip4.png)
+## V.	Kết Luận
+- Qua đồ án này ta đã thực hiện được tìm hiểu về các công nghệ mới như Flutter, API phù hợp với hướng phát triển của công nghệ hiện nay.
+- Tạo ra ứng dụng dễ dàng thuận tiện cho phép người dùng ghi nhớ công thức để nâng cao trình độ.
+- Ứng dụng vẫn còn những thiếu sót như tính năng đăng nhập.
+- Những tính năng còn thiếu sót sẽ được cập nhật bổ sung trong các phiên bản tiếp theo để ứng dụng được hoàn thiện hơn.
 
 
                
